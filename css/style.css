@@ -3,7 +3,6 @@
     box-sizing: border-box; 
 }
 
-/* Body selector*/ 
 body { 
     margin: 0px; 
     padding: 0%; 
@@ -20,7 +19,7 @@ header {
     background-color: #470FF4;
 }
 
-h1{
+h1 {
     margin-bottom: 15px;
     color:#FF3A20
 }
@@ -55,15 +54,17 @@ section div {
     background-color: #4056F4;
 }
 
-section { 
-    h4 {
+section h4 ~ p {
     width: 600px;
     padding: 10px; 
-    color: #FF3A20;
-    }
 }
 
-.activities ul, ol {
+section h4 {
+    margin-top: 10px;
+    color: #FF3A20;
+}
+
+ul, ol {
     margin-left: 30px;
     padding: 5px;  
     color: #bbc7ce;
