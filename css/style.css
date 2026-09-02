@@ -1,0 +1,99 @@
+* { 
+    margin:0;
+    box-sizing: border-box; 
+}
+
+/* Body selector*/ 
+body { 
+    margin: 0px; 
+    padding: 0%; 
+    background-color: #1A1B41; 
+    color: #ffffff; 
+}
+
+header {
+    width: 100%; 
+    margin-top: 10px; 
+    height: 15vh; 
+    padding: 20px; 
+    box-sizing: border-box;
+    background-color: #470FF4;
+}
+
+h1{
+    margin-bottom: 15px;
+    color:#FF3A20
+}
+
+h2 {
+    margin: 5px;
+    padding: 5px; 
+    color: #CE2D4F;
+}
+
+h3 {
+    color: #1A1B41;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    padding: 10px;  
+    color: #ffffff;
+}
+
+section { 
+    p {
+    padding: 10px; 
+    color: #ffffff;
+    }
+}
+
+section div {
+    width: 100%;
+    margin: 10px;
+    margin-bottom: 10px;
+    padding: 10px;  
+    background-color: #4056F4;
+}
+
+section { 
+    h4 {
+    width: 600px;
+    padding: 10px; 
+    color: #FF3A20;
+    }
+}
+
+.activities ul, ol {
+    margin-left: 30px;
+    padding: 5px;  
+    color: #bbc7ce;
+}
+
+#playlist h2 {
+    width: 100%;
+    margin: auto;
+    padding: 10px;  
+    color: #BAFF29;
+}
+
+#location h2 {
+    width: 100%;
+    margin: auto;
+    padding: 10px;  
+    color: #FFC600;
+}
+
+section:has(iframe) {
+    div {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;  
+    }
+}
+
+.final h2 + p {
+    margin-bottom: 5px;
+    color:#CE2D4F
+}
