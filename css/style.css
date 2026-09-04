@@ -34,6 +34,11 @@ h3 {
     color: #1A1B41;
 }
 
+hr {
+    margin-left: 5px;  
+    margin-right: 5px; 
+}
+
 main {
     width: 100%;
     margin: auto;
